@@ -20,6 +20,15 @@ html, body{
         margin: 0 auto;
         padding: 16px 32px;
         }
+    .nav-list {
+      list-style: none;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      background: #64c6e1;
+      padding: 5px;
+        }
     .logo {
       width: 100%;
       height: auto;
@@ -40,6 +49,15 @@ html, body{
     }
     h2{
       color: #64c6e1;
+    }
+    a{
+      color: white;
+      text-decoration: none;
+      text-transform: uppercase;
+    }
+    a:hover{
+      color: #ddf033;
+      font-weight: bold;
     }
     button{
       color: white;
@@ -79,6 +97,8 @@ html, body{
       margin-top: 2%;
       color: white;
       background-color: #ec6a9d;
+      text-align: center;
+      text-transform: uppercase;
   }
   @media (min-width: 650px) {
     .photos, .photos-2, .photos-3 {
