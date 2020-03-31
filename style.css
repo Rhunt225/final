@@ -28,6 +28,7 @@ html, body{
       flex-wrap: wrap;
       background: #64c6e1;
       padding: 5px;
+      margin: 20px;
         }
     .logo {
       width: 100%;
@@ -96,12 +97,12 @@ html, body{
       padding: 2%;
       margin-top: 2%;
       color: white;
-      background-color: #ec6a9d;
+      background-color: #64c6e1;
       text-align: center;
       text-transform: uppercase;
   }
   @media (min-width: 650px) {
-    .photos, .photos-2, .photos-3 {
+    .photos, .photos-2, .photos-3, .photos-4 {
           display: grid;
           grid-template-columns: repeat(3, 1fr);
           margin-top: 20px;
